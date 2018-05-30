@@ -1,13 +1,15 @@
 --- 
 project: 
-  key: DRAG
+  key: DRAGON
   plan: 
     key: SLAYER
     name: "Dragon Slayer Quest"
 stages: 
-  - 
-    jobs: 
-      - 
-        scripts: 
-          - "echo 'Going to slay the red dragon, watch me'"
+  - jobs:
+    - scripts: 
+      - "echo 'Going to slay the red dragon, watch me'"
+    - requirements:
+      - isDragonLazy
+      - isDragonAsleep
+      - isCaveDeep
 ...
