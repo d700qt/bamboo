@@ -1,6 +1,6 @@
 --- 
 project: 
-  key: DRAG
+  key: DRAGON
   plan: 
     key: SLAYER
     name: "Dragon Slayer Quest"
@@ -8,20 +8,6 @@ stages:
   - 
     jobs: 
       - 
-        artifacts: 
-          - 
-            name: "Red dragon's head"
-            path: dragon/red/head
-        requirements: 
-          - isDragonLazy
         scripts: 
-          - "echo 'Going to kill the red dragon, watch me'"
-          - "sleep 1"
-          - "echo 'Nailed it'"
-        testParsers: 
-          - 
-            testResults: "**/mocha/*.json"
-            type: mocha
-          - 
-            testResults: "**/junit/*.xml"
-            type: junit
+          - "echo 'Going to slay the red dragon, watch me'"
+---
