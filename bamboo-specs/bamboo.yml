@@ -11,5 +11,5 @@ stages:
     requirements:
       - isDragonLazy
       - isDragonAsleep
-      - isCaveDeep
+      - isCaveDee
 ...
