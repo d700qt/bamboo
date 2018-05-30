@@ -1,1 +1,1 @@
-some content
+Playing with bamboo YAML specs
