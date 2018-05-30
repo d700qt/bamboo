@@ -6,6 +6,7 @@ project:
     name: "Dragon Slayer Quest"
 stages: 
   - jobs:
+    # A script
     - scripts: 
         - write-output 'Going to slay the red dragon, watch me'
       interpreter: powershell
