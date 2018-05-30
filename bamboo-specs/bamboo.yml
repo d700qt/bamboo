@@ -7,23 +7,23 @@ project:
 stages: 
   - jobs:
     - scripts: 
-      - "write-output 'Going to slay the red dragon, watch me'"
-      interpreter: powershell
-    requirements:
-    - isDragonLazy
-    - isDragonAsleep
-    - isCaveDeep
-    artifacts:
-    - name: Blue dragon's head
-      path: dragon/blue/head
-    - name: Blue dragon's claw
-      path: dragon/blue/claw
-    testParsers:
-    - type: mocha
-      testResults:
-      - report.json
-    - type: junit
-      testResults:
-      - '**/test-reports/*.xml'
-      - '**/custom-test-reports/*.xml'
+        - "write-output 'Going to slay the red dragon, watch me'"
+        interpreter: powershell
+      requirements:
+        - isDragonLazy
+        - isDragonAsleep
+        - isCaveDeep
+      artifacts:
+        - name: Blue dragon's head
+          path: dragon/blue/head
+        - name: Blue dragon's claw
+          path: dragon/blue/claw
+      testParsers:
+        - type: mocha
+          testResults:
+          - report.json
+        - type: junit
+          testResults:
+          - '**/test-reports/*.xml'
+          - '**/custom-test-reports/*.xml'
 ...
