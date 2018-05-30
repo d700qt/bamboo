@@ -7,7 +7,7 @@ project:
 stages: 
   - jobs:
     - scripts: 
-        - "write-output 'Going to slay the red dragon, watch me'"
+        - echo 'Going to slay the red dragon, watch me'
         interpreter: powershell
       requirements:
         - isDragonLazy
