@@ -15,10 +15,10 @@ stages:
     # Job's requirements. Only matching type 'exists' is supported
     requirements:
       - isDragonLazy
-    # Job's artifacts. All artifacts are shared ones.
+      # Job's artifacts. All artifacts are shared ones.
       artifacts:
         - name: Red dragon's head
-            path: dragon/red/head
+        path: dragon/red/head
      # Job's test parsers.
     testParsers:
       - type: mocha
