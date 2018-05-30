@@ -12,7 +12,7 @@ stages:
       - isDragonLazy
       - isDragonAsleep
       - isCaveDeep
-    - artifacts:
+      artifacts:
       - name: Blue dragon's head
         path: dragon/blue/head
       - name: Blue dragon's claw
