@@ -11,5 +11,10 @@ stages:
       requirements:
       - isDragonLazy
       - isDragonAsleep
-      - isCaveDee
+      - isCaveDeep
+    - artifacts:
+      - name: Blue dragon's head
+        path: dragon/blue/head
+      - name: Blue dragon's claw
+        path: dragon/blue/claw
 ...
