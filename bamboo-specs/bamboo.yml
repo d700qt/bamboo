@@ -3,7 +3,7 @@ project:
   key: DRAG
   plan: 
     key: SLAYER
-    name: "Dragon Slayer Quest"
+    name: "Dragon Slayer Quest II"
 stages: 
   - jobs:
     # A script
